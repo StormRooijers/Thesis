@@ -35,7 +35,7 @@ end_date = '2013-01-01T23:59:59Z'
 
 data = []
 n = 1
-day_count = 2
+day_count = 2 #I tested it for 1 day to not waste the amounts of tweets I can collect per month
 
 #Moving day by day
 for single_date in (datetime.strptime(end_date,"%Y-%m-%dT%H:%M:%SZ") + timedelta(days=n) for n in range(day_count)):
