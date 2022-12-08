@@ -9,7 +9,7 @@ This repository coints code and data for the thesis:
 - In the analysis folder, the steps of descriptive analysis can be found. 
 - In the data folder, the databases used in the descriptive analysis can be found. 
 - In the output folder, the plots and correlation matrix can be found.
-- In the Twitter sentiment folder, the approach of collecting tweets and the VADER sentiment analysis can be found. 
+- In the Twitter sentiment analysis folder, the approach of collecting tweets and the VADER sentiment analysis can be found. 
 
 
 # Background information
