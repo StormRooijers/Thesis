@@ -5,7 +5,7 @@ This repository coints code and data for the thesis:
 “Predicting the unpredictable” - Predicting the Bitcoin price using machine learning techniques
 
 
-# Table of content
+# Table of contents
 - In the analysis folder, the steps of descriptive analysis can be found. 
 - In the data folder, the databases used in the descriptive analysis can be found. 
 - In the Twitter sentiment folder, the approach of collecting tweets and the VADER sentiment analysis can be found. 
