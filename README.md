@@ -5,13 +5,13 @@ This repository coints code and data for the thesis:
 “Predicting the unpredictable” - Predicting the Bitcoin price using machine learning techniques
 
 
-#Table of content
+# Table of content
 - In the analysis folder, the descriptive analysis can be found. 
 - In the data folder, the databases used in the descriptive analysis can be found. 
 - In the Twitter sentiment folder, the approach of collecting tweets and the VADER sentiment analysis can be found. 
 
 
-#Background information
+# Background information
 Currently, I am struggeling with collecting the Tweets from the historical archive which requieres academic access. 
 
 I succeeded to collect the tweets from the last 7 days (which is free and does not contain a limit such as the academic acccess) and adding it to a file and run the Vader sentiment analysis.
