@@ -1,6 +1,3 @@
-
-
-
 #Determining sizes train,validation and test sets
 training_size <- floor(0.7*nrow(Percentages_2017_2022))
 validation_size <- floor(0.15*nrow(Percentages_2017_2022))
