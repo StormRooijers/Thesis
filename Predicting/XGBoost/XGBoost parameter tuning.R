@@ -1,6 +1,6 @@
 library(caret)
 
-#Define train control with rolling window
+#Train control with rolling window
 t.control = train_control <- trainControl(method = "timeslice",
                                           initialWindow = 680,
                                           horizon = 171) 
@@ -15,7 +15,7 @@ param_grid <- expand.grid(
   subsample = c(0.5, 0.7, 0.9)
 )
 
-#Train the XGBoost based on the different hyper parameters
+#Training XGBoost based on the different hyperparameters
 model2 <- train(x = train.x,
                    y = train.y,
                    method = "xgbTree",
