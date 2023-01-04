@@ -20,9 +20,9 @@ calculate_expected_return <- function(predicted_price_change, MAE, transaction_c
 predictions <- DATABASE_X
 
 # Loop through the rows in the predictions database for next day predictions and true price changes
-for (i in 1:nrow(predictions)) {
-  predicted_price_change <- predictions[i, "price_change"]
-  true_price_change <- true_values[i, "price_change"]
+for (i in 1:nrow(Predicted_price_change_2017_2022)) {
+  predicted_price_change <- Predicted_price_change_2017_2022[i, 2]
+  true_price_change <- True_price_change_2017_2022[i, 2]
   
   # Calculate the expected return
   expected_return <- calculate_expected_return(predicted_price_change, MAE, transaction_costs, in_trade)
