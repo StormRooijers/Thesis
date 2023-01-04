@@ -6,7 +6,7 @@ in_trade <- FALSE
 balance_df <- data.frame(balance = numeric())
 
 # Function expected return
-calculate_expected_return <- function(predicted_price_change, MAE, transaction_costs, in_trade) {
+calculate_expected_return <- function(predicted_price_change, MAE, transaction_costs, in_trade = FALSE) {
   if (in_trade) {
     expected_return <- (predicted_price_change - MAE)
   } else {
