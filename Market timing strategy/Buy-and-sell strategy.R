@@ -1,6 +1,6 @@
 # Variables
 balance <- 1000
-MAE <- 0.025
+MAE <- 0.025 #To be changed depending on results
 transaction_costs <- 0.003
 in_trade <- FALSE
 balance_df <- data.frame(balance = numeric())
