@@ -1,8 +1,8 @@
 # Thesis
 
-This repository coints code and data for the thesis: 
+This repository contains code and data for the thesis: 
 
-“Predicting the unpredictable” - Predicting the Bitcoin price using machine learning techniques
+“Predicting the unpredictable” - Predicting the Bitcoin price change using machine learning techniques
 
 
 # Table of contents
