@@ -1,7 +1,7 @@
 FLAGS <- flags(flag_integer('batch_size1', 32),
                flag_integer('batch_size2', 32),
                flag_integer('batch_size3',4),
-               flag_integer('dropout', 0.3)) 
+               flag_numeric('dropout', 0.3)) 
 
 
 #model
